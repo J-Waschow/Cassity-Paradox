@@ -78,7 +78,7 @@ def main():
         learning_rate=0.05,
         subsample=0.9,
         colsample_bytree=0.8,
-        objective='multi:softmax',   # ← THIS IS THE FIX
+        objective='multi:softmax',   
         num_class=3,
         random_state=42,
         n_jobs=-1
